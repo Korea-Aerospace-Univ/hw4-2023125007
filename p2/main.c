@@ -30,7 +30,7 @@ int main(void){
         if(countLower > maxLower) maxLower = countLower;
     }
 
-    printf("%d", maxLower);
+    printf("%d\n", maxLower);
     printf("%d", maxDigit);
     return 0;
 }
