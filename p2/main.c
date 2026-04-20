@@ -11,7 +11,7 @@ int main(void){
     char current = 0;
 
     for(int i = 0; i<N; i++){
-        scanf("%c", &current);
+        scanf(" %c", &current);
 
         if('a' <= current && current <= 'z'){
             countLower += 1;
