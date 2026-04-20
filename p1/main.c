@@ -19,6 +19,6 @@ int main(void){
     } while(insert != answer);
 
     printf("%d==?\n", insert);
-    printf("%d", count);
+    printf("%d\n", count);
     return 0;
 }
