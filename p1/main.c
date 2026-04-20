@@ -4,7 +4,7 @@ int main(void){
     int answer = 0;
     int insert = 0;
     int count = 0;
-    scanf("%d", &answer);
+    scanf("%d\n", &answer);
 
     do{
         scanf(" %d", &insert);
