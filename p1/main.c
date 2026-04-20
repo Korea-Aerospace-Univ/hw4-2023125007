@@ -7,7 +7,7 @@ int main(void){
     scanf("%d", &answer);
 
     do{
-        scanf("%d", &insert);
+        scanf(" %d", &insert);
         count += 1;
 
         if(insert < answer){
