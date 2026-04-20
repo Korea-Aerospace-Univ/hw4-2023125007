@@ -21,6 +21,10 @@ int main(void){
             countDigit += 1;
             countLower = 0;
         }
+        else{
+            countDigit = 0;
+            countLower = 0;
+        }
 
         if(countDigit > maxDigit) maxDigit = countDigit;
         if(countLower > maxLower) maxLower = countLower;
